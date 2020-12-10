@@ -39,7 +39,7 @@ export const deleteMovie = (id) => {
 
 export const addMovie = (name, score) => {
   const newMovie = {
-    id: `${movie.length + 1}`,
+    id: `${movies.length + 1}`,
     name,
     score
   };
